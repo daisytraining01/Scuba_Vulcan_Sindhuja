@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> inverse is completed]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Addition is completed]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Exp is Performed]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Multipliaction is completed]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> negate is completed]]>
+    </line>
+  </reporter-output>
+  <suite name="Parallel test suite" duration-ms="262" started-at="2020-07-04T21:06:18 AST" finished-at="2020-07-04T21:06:18 AST">
+    <groups>
+      <group name="SmokeTest2">
+        <method signature="TestCase1.Addition(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@3701eaf6]" name="Addition" class="com.MavenTestNGAssignment.TestCase1"/>
+        <method signature="TestCase1.exp(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@3701eaf6]" name="exp" class="com.MavenTestNGAssignment.TestCase1"/>
+      </group> <!-- SmokeTest2 -->
+      <group name="SmokeTest3">
+        <method signature="TestCase1.multiplication(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@3701eaf6]" name="multiplication" class="com.MavenTestNGAssignment.TestCase1"/>
+        <method signature="TestCase2.inverse(int)[pri:0, instance:com.MavenTestNGAssignment.TestCase2@627551fb]" name="inverse" class="com.MavenTestNGAssignment.TestCase2"/>
+        <method signature="TestCase2.negate(int)[pri:0, instance:com.MavenTestNGAssignment.TestCase2@627551fb]" name="negate" class="com.MavenTestNGAssignment.TestCase2"/>
+      </group> <!-- SmokeTest3 -->
+    </groups>
+    <test name="Test" duration-ms="262" started-at="2020-07-04T21:06:18 AST" finished-at="2020-07-04T21:06:18 AST">
+      <class name="com.MavenTestNGAssignment.TestCase1">
+        <test-method status="PASS" signature="Addition(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@3701eaf6]" name="Addition" duration-ms="23" started-at="2020-07-04T21:06:18 AST" data-provider="add" finished-at="2020-07-04T21:06:18 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Addition is completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Addition -->
+        <test-method status="PASS" signature="exp(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@3701eaf6]" name="exp" duration-ms="8" started-at="2020-07-04T21:06:18 AST" data-provider="exp" finished-at="2020-07-04T21:06:18 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Exp is Performed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="multiplication(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@3701eaf6]" name="multiplication" duration-ms="4" started-at="2020-07-04T21:06:18 AST" finished-at="2020-07-04T21:06:18 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Multipliaction is completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiplication -->
+      </class> <!-- com.MavenTestNGAssignment.TestCase1 -->
+      <class name="com.MavenTestNGAssignment.TestCase2">
+        <test-method status="PASS" signature="inverse(int)[pri:0, instance:com.MavenTestNGAssignment.TestCase2@627551fb]" name="inverse" duration-ms="23" started-at="2020-07-04T21:06:18 AST" finished-at="2020-07-04T21:06:18 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> inverse is completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- inverse -->
+        <test-method status="PASS" signature="negate(int)[pri:0, instance:com.MavenTestNGAssignment.TestCase2@627551fb]" name="negate" duration-ms="17" started-at="2020-07-04T21:06:18 AST" finished-at="2020-07-04T21:06:18 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> negate is completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negate -->
+      </class> <!-- com.MavenTestNGAssignment.TestCase2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>
