@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.861" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.225" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\vikrantk\AppData\Local\Temp\surefire3822225973296835032\surefirebooter1130755135021089436.jar C:\Users\vikrantk\AppData\Local\Temp\surefire3822225973296835032 2020-07-31T17-50-45_764-jvmRun1 surefire1997301773232105878tmp surefire_03773875127873713746tmp"/>
+    <property name="sun.java.command" value="C:\Users\vikrantk\AppData\Local\Temp\surefire6569265003950855207\surefirebooter6378942175489228368.jar C:\Users\vikrantk\AppData\Local\Temp\surefire6569265003950855207 2020-08-02T18-13-36_685-jvmRun1 surefire6073390378324940084tmp surefire_05141625323106463636tmp"/>
     <property name="surefire.test.class.path" value="D:\FinalWorkSpace\MavenTestNGAssignment\target\test-classes;D:\FinalWorkSpace\MavenTestNGAssignment\target\classes;C:\Users\vikrantk\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\vikrantk\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\vikrantk\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\vikrantk\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\vikrantk\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\vikrantk\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\vikrantk\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\vikrantk"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\vikrantk\AppData\Local\Temp\surefire3822225973296835032\surefirebooter1130755135021089436.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\vikrantk\AppData\Local\Temp\surefire6569265003950855207\surefirebooter6378942175489228368.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,9 +60,27 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Addition" classname="com.MavenTestNGAssignment.TestCase1" time="0.011"/>
-  <testcase name="exp" classname="com.MavenTestNGAssignment.TestCase1" time="0.001"/>
-  <testcase name="inverse" classname="com.MavenTestNGAssignment.TestCase2" time="0.001"/>
-  <testcase name="multiplication" classname="com.MavenTestNGAssignment.TestCase1" time="0.002"/>
-  <testcase name="negate" classname="com.MavenTestNGAssignment.TestCase2" time="0.002"/>
+  <testcase name="Addition[1, 4](1)" classname="com.MavenTestNGAssignment.TestCase1" time="0.027">
+    <system-out><![CDATA[Using assertEquals
+TestNG_ReportsAndLogs -> inverse is completed
+TestNG_ReportsAndLogs -> Addition is completed
+Using assertTrue
+]]></system-out>
+  </testcase>
+  <testcase name="exp[1, 1](1)" classname="com.MavenTestNGAssignment.TestCase1" time="0.001"/>
+  <testcase name="multiplication[10, 4](1)" classname="com.MavenTestNGAssignment.TestCase1" time="0">
+    <system-out><![CDATA[Using assertTrue
+TestNG_ReportsAndLogs -> Multipliaction is completed
+]]></system-out>
+  </testcase>
+  <testcase name="inverse[21](1)" classname="com.MavenTestNGAssignment.TestCase2" time="0">
+    <system-out><![CDATA[Using assertNotEquals
+TestNG_ReportsAndLogs -> Exp is Performed
+]]></system-out>
+  </testcase>
+  <testcase name="negate[21](1)" classname="com.MavenTestNGAssignment.TestCase2" time="0.001">
+    <system-out><![CDATA[Using assertTrue
+TestNG_ReportsAndLogs -> negate is completed
+]]></system-out>
+  </testcase>
 </testsuite>

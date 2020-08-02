@@ -11,27 +11,27 @@
       <![CDATA[TestNG_ReportsAndLogs -> Exp is Performed]]>
     </line>
     <line>
-      <![CDATA[TestNG_ReportsAndLogs -> Multipliaction is completed]]>
-    </line>
-    <line>
       <![CDATA[TestNG_ReportsAndLogs -> negate is completed]]>
     </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Multipliaction is completed]]>
+    </line>
   </reporter-output>
-  <suite name="Parallel test suite" duration-ms="101" started-at="2020-07-31T17:50:49 AST" finished-at="2020-07-31T17:50:49 AST">
+  <suite name="Parallel test suite" duration-ms="130" started-at="2020-08-02T18:13:54 AST" finished-at="2020-08-02T18:13:54 AST">
     <groups>
       <group name="SmokeTest2">
-        <method signature="TestCase1.Addition(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@57baeedf]" name="Addition" class="com.MavenTestNGAssignment.TestCase1"/>
-        <method signature="TestCase1.exp(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@57baeedf]" name="exp" class="com.MavenTestNGAssignment.TestCase1"/>
+        <method signature="TestCase1.Addition(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@5f2108b5]" name="Addition" class="com.MavenTestNGAssignment.TestCase1"/>
+        <method signature="TestCase1.exp(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@5f2108b5]" name="exp" class="com.MavenTestNGAssignment.TestCase1"/>
       </group> <!-- SmokeTest2 -->
       <group name="SmokeTest3">
-        <method signature="TestCase1.multiplication(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@57baeedf]" name="multiplication" class="com.MavenTestNGAssignment.TestCase1"/>
-        <method signature="TestCase2.inverse(int)[pri:0, instance:com.MavenTestNGAssignment.TestCase2@343f4d3d]" name="inverse" class="com.MavenTestNGAssignment.TestCase2"/>
-        <method signature="TestCase2.negate(int)[pri:0, instance:com.MavenTestNGAssignment.TestCase2@343f4d3d]" name="negate" class="com.MavenTestNGAssignment.TestCase2"/>
+        <method signature="TestCase1.multiplication(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@5f2108b5]" name="multiplication" class="com.MavenTestNGAssignment.TestCase1"/>
+        <method signature="TestCase2.inverse(int)[pri:0, instance:com.MavenTestNGAssignment.TestCase2@31a5c39e]" name="inverse" class="com.MavenTestNGAssignment.TestCase2"/>
+        <method signature="TestCase2.negate(int)[pri:0, instance:com.MavenTestNGAssignment.TestCase2@31a5c39e]" name="negate" class="com.MavenTestNGAssignment.TestCase2"/>
       </group> <!-- SmokeTest3 -->
     </groups>
-    <test name="Test" duration-ms="101" started-at="2020-07-31T17:50:49 AST" finished-at="2020-07-31T17:50:49 AST">
+    <test name="Test" duration-ms="130" started-at="2020-08-02T18:13:54 AST" finished-at="2020-08-02T18:13:54 AST">
       <class name="com.MavenTestNGAssignment.TestCase1">
-        <test-method status="PASS" signature="Addition(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@57baeedf]" name="Addition" duration-ms="9" started-at="2020-07-31T17:50:49 AST" data-provider="add" finished-at="2020-07-31T17:50:49 AST">
+        <test-method status="PASS" signature="Addition(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@5f2108b5]" name="Addition" duration-ms="12" started-at="2020-08-02T18:13:54 AST" data-provider="add" finished-at="2020-08-02T18:13:54 AST">
           <params>
             <param index="0">
               <value>
@@ -50,7 +50,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Addition -->
-        <test-method status="PASS" signature="exp(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@57baeedf]" name="exp" duration-ms="2" started-at="2020-07-31T17:50:49 AST" data-provider="exp" finished-at="2020-07-31T17:50:49 AST">
+        <test-method status="PASS" signature="exp(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@5f2108b5]" name="exp" duration-ms="3" started-at="2020-08-02T18:13:54 AST" data-provider="exp" finished-at="2020-08-02T18:13:54 AST">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- exp -->
-        <test-method status="PASS" signature="multiplication(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@57baeedf]" name="multiplication" duration-ms="0" started-at="2020-07-31T17:50:49 AST" finished-at="2020-07-31T17:50:49 AST">
+        <test-method status="PASS" signature="multiplication(int, int)[pri:0, instance:com.MavenTestNGAssignment.TestCase1@5f2108b5]" name="multiplication" duration-ms="1" started-at="2020-08-02T18:13:54 AST" finished-at="2020-08-02T18:13:54 AST">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@
         </test-method> <!-- multiplication -->
       </class> <!-- com.MavenTestNGAssignment.TestCase1 -->
       <class name="com.MavenTestNGAssignment.TestCase2">
-        <test-method status="PASS" signature="inverse(int)[pri:0, instance:com.MavenTestNGAssignment.TestCase2@343f4d3d]" name="inverse" duration-ms="9" started-at="2020-07-31T17:50:49 AST" finished-at="2020-07-31T17:50:49 AST">
+        <test-method status="PASS" signature="inverse(int)[pri:0, instance:com.MavenTestNGAssignment.TestCase2@31a5c39e]" name="inverse" duration-ms="12" started-at="2020-08-02T18:13:54 AST" finished-at="2020-08-02T18:13:54 AST">
           <params>
             <param index="0">
               <value>
@@ -104,7 +104,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- inverse -->
-        <test-method status="PASS" signature="negate(int)[pri:0, instance:com.MavenTestNGAssignment.TestCase2@343f4d3d]" name="negate" duration-ms="0" started-at="2020-07-31T17:50:49 AST" finished-at="2020-07-31T17:50:49 AST">
+        <test-method status="PASS" signature="negate(int)[pri:0, instance:com.MavenTestNGAssignment.TestCase2@31a5c39e]" name="negate" duration-ms="1" started-at="2020-08-02T18:13:54 AST" finished-at="2020-08-02T18:13:54 AST">
           <params>
             <param index="0">
               <value>
